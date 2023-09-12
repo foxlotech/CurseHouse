@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:columnCount="4">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/red"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/red" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/pink"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/pink" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/purple"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/purple" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/deeppurple"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/deeppurple" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/indigo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/indigo" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/blue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/blue" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/lightblue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/lightbue" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cyan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/cyan" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/teal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/teal" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/green"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/green" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/lightgreen"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/lightgreen" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/lime"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/lime" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/yellow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/yellow" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/amber"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/amber" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/orange"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/orange" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/deeporange"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/deeporange" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/brown"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/brown" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/grey"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/grey" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bluegree"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:elevation="0dp"
+            app:backgroundTint="@color/bluegrey" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/text_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="TEXTO"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

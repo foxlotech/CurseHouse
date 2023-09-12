@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/system_accent1_600</color>
+    <color name="colorOnPrimary">@android:color/system_accent1_0</color>
+    <color name="colorOnPrimaryDark">@android:color/system_accent1_800</color>
+    <color name="icon_colors">@android:color/system_accent1_700</color>
+    <color name="red">#d50000</color>
+    <color name="pink">#c51162</color>
+    <color name="purple">#aa00ff</color>
+    <color name="deeppurple">#6200ea</color>
+    <color name="indigo">#304ffe</color>
+    <color name="blue">#2962ff</color>
+    <color name="lightbue">#0091ea</color>
+    <color name="cyan">#00b8d4</color>
+    <color name="teal">#00bfa5</color>
+    <color name="green">#00c853</color>
+    <color name="lightgreen">#64dd17</color>
+    <color name="lime">#aeea00</color>
+    <color name="yellow">#ffd600</color>
+    <color name="amber">#ffab00</color>
+    <color name="orange">#ff6d00</color>
+    <color name="deeporange">#dd2c00</color>
+    <color name="brown">#3e2723</color>
+    <color name="grey">#000000</color>
+    <color name="bluegrey">#263238</color>
+
+
+</resources>

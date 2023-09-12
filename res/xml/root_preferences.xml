@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:title="@string/messages_header">
+
+        <Preference
+            android:icon="@drawable/round_format_paint_24"
+            android:key="monet_select"
+            android:summary="Colour applied to whole system"
+            android:title="Select System Colour" />
+        <Preference
+            android:icon="@drawable/round_format_paint_24"
+            android:key="vibrant_select"
+            android:summary="Vibrant Colours (More Accurate)"
+            android:title="Select System Colour" />
+        <ListPreference
+            android:icon="@drawable/baseline_color_lens_24"
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="reply"
+            app:title="@string/change_accent_color"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <!--    <PreferenceCategory app:title="@string/sync_header">-->
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:key="sync"-->
+    <!--            app:title="@string/sync_title" />-->
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:dependency="sync"-->
+    <!--            app:key="attachment"-->
+    <!--            app:summaryOff="@string/attachment_summary_off"-->
+    <!--            app:summaryOn="@string/attachment_summary_on"-->
+    <!--            app:title="@string/attachment_title" />-->
+
+    <!--    </PreferenceCategory>-->
+
+</PreferenceScreen>

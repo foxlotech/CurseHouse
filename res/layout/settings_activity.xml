@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/notification_pref_topbar"
+        android:elevation ="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:background="@android:color/system_accent1_200"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Notification Shade"
+
+            app:navigationIcon="@drawable/round_arrow_back_ios_24" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/settings"
+        android:background="@android:color/system_neutral1_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
