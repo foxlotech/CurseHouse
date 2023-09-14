@@ -6,7 +6,6 @@
     android:layout_height="fill_parent"
     android:columnWidth="200dp"
     android:gravity="center"
-
     android:horizontalSpacing="10dp"
     android:numColumns="2"
     android:stretchMode="columnWidth"
@@ -48,6 +47,7 @@
             </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card2"
         android:layout_width="190dp"
@@ -78,6 +78,43 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Notification Shade"
+                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card3"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:contentDescription="test"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon_shapes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title, secondary and supporting text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Icon Shape"
                     android:textAppearance="?attr/textAppearanceTitleMedium" />
 
 
