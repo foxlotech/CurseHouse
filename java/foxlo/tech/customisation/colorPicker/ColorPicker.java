@@ -1,4 +1,5 @@
 package foxlo.tech.customisation.colorPicker;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,9 +7,12 @@ import android.provider.Settings;
 import android.util.Log;
 import android.view.Window;
 import android.widget.TextView;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import foxlo.tech.customisation.R;
 
 public class ColorPicker {
@@ -122,6 +126,7 @@ public class ColorPicker {
         }
         dialog.dismiss();
         Settings.Secure.putString(activity.getContentResolver(), "theme_customization_overlay_packages", jSONObject.toString());
+       // Settings.System.putString(activity.getContentResolver(),"qs_transparency", "10");
 
     }
 
